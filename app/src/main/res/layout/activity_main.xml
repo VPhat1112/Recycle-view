@@ -5,12 +5,14 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/dogshop"
     tools:context="com.example.recycleview.MainActivity">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_item"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
+            android:layout_width="280dp"
+            android:layout_height="560dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="90dp" />
 
 </RelativeLayout>

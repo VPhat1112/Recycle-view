@@ -1,10 +1,10 @@
-package com.example.recycleview;
+package com.example.recycleview.dog;
 
-public class item {
+public class Item {
     private String itemName;
     private int images_pet;
     private String itemInfo;
-    public item(String itemName,int images_dinner,String itemInfo){
+    public Item(String itemName,int images_dinner,String itemInfo){
         this.itemName=itemName;
         this.images_pet=images_dinner;
         this.itemInfo=itemInfo;
